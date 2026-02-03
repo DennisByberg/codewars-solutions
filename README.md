@@ -7,6 +7,7 @@ This repository contains my solutions to various CodeWars problems implemented i
 - TypeScript
 - JavaScript
 - C#
+- Python
 
 ## Project Structure
 
@@ -22,6 +23,9 @@ Solutions/
     CS/
       Solution.cs
       SolutionTests.cs
+    PY/
+      solution.py
+      solution_test.py
 ```
 
 ## Running Tests
@@ -40,12 +44,19 @@ npm test
 dotnet test --filter "FullyQualifiedName~Solutions.{FOLDER_NAME}.CS"
 ```
 
+#### Python Tests
+
+```bash
+pytest
+```
+
 ## Setup
 
 ### Prerequisites
 
 - Node.js (for JavaScript/TypeScript)
 - .NET 9.0 SDK (for C#)
+- Python 3.x (for Python)
 
 ### Installation
 
