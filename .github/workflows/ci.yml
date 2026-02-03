@@ -57,8 +57,5 @@ jobs:
         with:
           python-version: '3.14'
 
-      - name: Install test dependencies
-        run: uv pip install --system pytest
-
       - name: Run tests
-        run: pytest
+        run: uv run --with pytest pytest
